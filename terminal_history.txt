@@ -1,0 +1,15 @@
+  179  cd OneDrive/
+  180  ls
+  181  cd Documents/
+  182  ls
+  183  cd FINTECschool/
+  184  ls
+  185  ls
+  186  git clone git@github.com:JohnGarcia222/https---github.com-JohnGarcia222-Challenge2.git
+  187  explorer .
+  188  explorer .
+  189  cd ..
+  190  history 50 > terminal_history .txt
+  191  history 50 > terminal_history.txt
+  192  history 5 > terminal_history.txt
+  193  history 15 > terminal_history.txt
