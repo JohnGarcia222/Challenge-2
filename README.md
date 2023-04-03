@@ -27,7 +27,7 @@ The next change was to add confirmation in regards to whether or not the user wo
 
 I then had to reinstall my pips in conda dev mode through GIT bash, normally you dont have to use git bash to install the pips but it seems as though my computer was a special case. I had to route into the dev pips folder on git bash to then grant access to my computer so it could use fire and questionary.
 
-I then had to grab the terminal history which proved a tad bit annoying purely bc I use multiple consoles and not just vs code
+I then had to grab the terminal history which proved a tad bit annoying purely because I use multiple consoles and not just vs code
 
 ----------
 # Contributors/Editors
