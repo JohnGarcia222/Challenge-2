@@ -29,6 +29,21 @@ I then had to reinstall my pips in conda dev mode through GIT bash, normally you
 
 I then had to grab the terminal history which proved a tad bit annoying purely because I use multiple consoles and not just vs code
 
+--------------
+# As the code runs
+-------------
+One of the earliest code lines ran should appear as the following
+![image](https://user-images.githubusercontent.com/127170402/229514020-779b8b89-b0af-4ef8-b16d-eaa13c89f8cd.png)
+
+![image](https://user-images.githubusercontent.com/127170402/229513816-689b3b76-beec-4686-b8ee-5b5af1f3c500.png)
+
+Moving a tad bit further down the questionaries should ask for all of your information
+![image](https://user-images.githubusercontent.com/127170402/229514760-9d255bc3-6885-40ad-8baa-38c270d9fc5a.png)
+![image](https://user-images.githubusercontent.com/127170402/229514810-708ebe64-ec01-483a-8bc0-49e10ed9bb16.png)
+![image](https://user-images.githubusercontent.com/127170402/229514845-42967087-e6ca-499a-aca7-e7ed17cf2bb3.png)
+
+
+
 ----------
 # Contributors/Editors
 ----------
