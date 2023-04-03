@@ -10,7 +10,11 @@ Throughtout the course of the project I have had to work my way through some iss
 # Installation
 --------
 The first and foremost thing to do is to get anaconda running which can be installed from an outside source (https://anaconda.cloud/register) and the you link that into vs code.  
-The next thing that needs to be installed is python which can be grabbed from the extensions area, and once that is installed you will have to direct to the blue bar on the bottom and change the version of python to 3.7.13 dev. Can be seen here ->
+The next thing that needs to be installed is python which can be grabbed from the extensions area -> 
+![image](https://user-images.githubusercontent.com/127170402/229506847-268f3c51-4351-4e26-b2d2-0ebe8cfec6bb.png)
+and once that is installed you will have to direct to the blue bar on the bottom and change the version of python to 3.7.13 dev. Can be seen here -> ![image](https://user-images.githubusercontent.com/127170402/229506720-53093ff1-713a-4a4f-ae5e-74f53cef4718.png)
+
+
 Last but not least you will need your imports with are fire and questionary. In you command terminal in either GIT bash or vs terminal you will have to make sure that first you input (conda activate dev). Then you need to run the command (pip install fire and pip install questionary). All of this put together should allow the code to run smoothly on your device.
 
 --------
