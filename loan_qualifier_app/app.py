@@ -29,9 +29,9 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
 
-    Returns:
-        The bank data from the data rate sheet CSV file.
-    """
+    # Returns:
+    #     The bank data from the data rate sheet CSV file.
+    # """
 
     csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
     csvpath = Path(csvpath)
@@ -110,24 +110,29 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
+    #if qualifying loans are found, ask if user would like to save the data
+    confirmation = questionary.confirm("Will you be saving your qualifying loans?" ).ask()
+
    #if no qualifying loan, call for sys exit
     if not qualifying_loans:
         sys.exit ("No qualifying loans found!")
 
     #if qualifying loans are found, ask if user would like to save the data
-    confirmation = questionary.confirm("Will you be saving your qualifying loans?")
+    
     
     #if they would like to save, ask where the files wants to be saved and use the csvpath to place it there
-    if confirmation == True:
-        csvpath = questionary.text("Where would you like you qualifying loans to be saved?")   
+    elif confirmation == True:
+        csvpath = questionary.text("Where would you like you qualifying loans to be saved?").ask()
+        save_csv (csvpath, qualifying_loans)
+        print("File saved, have a nice day!")
 
     #if they dont want the files to be saved, call for a message
-    if confirmation == False:
+    elif confirmation == False:
         print("Have a nice day!")
 
     #set the file path by using csv path
-    save_csv (csvpath, qualifying_loans)
-    print("Have a nice day!")
+    
+    return qualifying_loans
 
 
 def run():
