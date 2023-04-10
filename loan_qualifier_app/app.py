@@ -122,7 +122,7 @@ def save_qualifying_loans(qualifying_loans):
     
     #if they would like to save, ask where the files wants to be saved and use the csvpath to place it there
     elif confirmation == True:
-        csvpath = questionary.text("Where would you like you qualifying loans to be saved?").ask()
+        csvpath = questionary.text("Please choose a .csv file to save to").ask()
         save_csv (csvpath, qualifying_loans)
         print("File saved, have a nice day!")
 
