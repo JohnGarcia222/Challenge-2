@@ -1,15 +1,19 @@
 # Challenge 2
 --------------
+
 Throughtout the course of the project I have had to work my way through some issues within my code that did not allow me to execute everything properly on my first go around. The first thing I had to install/re-install were the pips for my code. In order to do so I had to find out what python version I was running. I went towards the bottom of the screen inside the blue bar and started to run python 3.7.13 in dev mode which then allowed me to go into my terminal and install pip fire and questionary. Outside of this was checking to see if anything special was required and it seems as though all forms of operating systems work fine as long as you have the correct packages and libraries installed.
+
 ---------  
-# Technologies  
+## Technologies  
 ----------
+
 Libraries: fire, sys, pathlib  
 Framework: VS Code  
 Operating Systems: Mac OS, Microsoft Windows   
 Programming Language: Python   
+
 --------
-# Installation
+## Installation
 --------
 The first and foremost thing to do is to get anaconda running which can be installed from an outside source (https://anaconda.cloud/register) and the you link that into vs code.  
 The next thing that needs to be installed is python which can be grabbed from the extensions area -> 
@@ -23,7 +27,7 @@ Upon the dev activation you will need to install you pips(fire and questionary).
 Last but not least you will need your imports with are fire and questionary. In you command terminal in either GIT bash or vs terminal you will have to make sure that first you input (conda activate dev). Then you need to run the command (pip install fire and pip install questionary). All of this put together should allow the code to run smoothly on your device.
 
 --------
-# Changes made within the code
+## Changes made within the code
 --------
 
 Initial change made was adding a csv_save spot by coding csv_save into fileio.pv. I then imported the csv_save into my app.py through the (from qualifier.utils.fileio import save_csv) line of code. All of this will allow the user to save and see their data upon using the code.
@@ -35,7 +39,7 @@ I then had to reinstall my pips in conda dev mode through GIT bash, normally you
 I then had to grab the terminal history which proved a tad bit annoying purely because I use multiple consoles and not just vs code
 
 --------------
-# As the code runs
+## As the code runs
 -------------
 One of the earliest code lines ran should appear as the following
 ![image](https://user-images.githubusercontent.com/127170402/229514020-779b8b89-b0af-4ef8-b16d-eaa13c89f8cd.png)
@@ -49,7 +53,7 @@ Moving a tad bit further down the questionaries should ask for all of your infor
 ![ql2](https://user-images.githubusercontent.com/127170402/229604896-66452159-ef5c-418f-8468-f8200b8dc88b.png)
 
 ------------------------
-# Contributors
+## Contributors
 --------------------
 John Garcia  
 email: Jdganna222@gmail.com
