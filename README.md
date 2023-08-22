@@ -1,11 +1,13 @@
 # Challenge 2
 --------------
-
---------
-# Technologies
-----------
 Throughtout the course of the project I have had to work my way through some issues within my code that did not allow me to execute everything properly on my first go around. The first thing I had to install/re-install were the pips for my code. In order to do so I had to find out what python version I was running. I went towards the bottom of the screen inside the blue bar and started to run python 3.7.13 in dev mode which then allowed me to go into my terminal and install pip fire and questionary. Outside of this was checking to see if anything special was required and it seems as though all forms of operating systems work fine as long as you have the correct packages and libraries installed.
-
+---------  
+# Technologies  
+----------
+Libraries: fire, sys, pathlib  
+Framework: VS Code  
+Operating Systems: Mac OS, Microsoft Windows   
+Programming Language: Python   
 --------
 # Installation
 --------
@@ -46,7 +48,11 @@ Moving a tad bit further down the questionaries should ask for all of your infor
 ![image](https://user-images.githubusercontent.com/127170402/229514845-42967087-e6ca-499a-aca7-e7ed17cf2bb3.png)
 ![ql2](https://user-images.githubusercontent.com/127170402/229604896-66452159-ef5c-418f-8468-f8200b8dc88b.png)
 
-
+------------------------
+# Contributors
+--------------------
+John Garcia  
+email: Jdganna222@gmail.com
 
 ----------
 # Contributors/Editors
